@@ -1,4 +1,5 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
+ <html>
 
   <head>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -6,9 +7,14 @@
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="google" content="notranslate" />
   </head>
-
+  
   <body>
-
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+          <div class="container">
+              <a class="navbar-brand" href="#">Start Bootstrap</a>
+          </div>
+      </nav>
       {% block content %}
       <!--Page Content-->
       {% endblock content %}
@@ -21,7 +27,6 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
           integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
       </script>
-
   </body>
 
-  </html>
+</html>
