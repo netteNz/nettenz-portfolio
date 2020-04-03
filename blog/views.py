@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def blog_index(request):
-    return render(request, 'index.html', {})
+def homepage(request):
+    return render(request=request, template_name="index.html")
