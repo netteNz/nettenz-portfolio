@@ -1,2 +1,2 @@
-# Repo for Django project containing my portfolio
-Deployed via heroku: nettenz-portfolio.herokuapp.com
+# Django Portfolio 
+Repo for project containing my portfolio Deployed via heroku: nettenz-portfolio.herokuapp.com
