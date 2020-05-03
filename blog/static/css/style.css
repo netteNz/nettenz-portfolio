@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #343a40;
+  }
+
 .col-sm {
     margin-right: 10px;
     margin-left: 10px;
