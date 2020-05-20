@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #343a40;
+}
+
+.col-sm {
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.container-fluid {
+    padding-top: 0%;
+    padding-right: 0%;
+}
+
+.jumbotron {
+    margin-bottom: 0%;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#p1 {
+    color: rgb(255, 255, 255);
+}
+
+#carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
